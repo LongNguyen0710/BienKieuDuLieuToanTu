@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let inputPhysics;
+        let inputChemistry;
+        let inputBiological;
+        inputPhysics=prompt("Enter the point Physics");
+        inputChemistry=prompt("Enter the point Chemistry");
+        inputBiological=prompt("Enter the point Biological");
+        let a = parseInt(inputPhysics);
+        let b = parseInt(inputChemistry);
+        let c = parseInt(inputBiological);
+        let Socre = (a+b+c)/3;
+        let Sum = a+b+c;
+        document.write("Average score: "+ Socre);
+        document.write('<br/>');
+        document.write("Sum is: "+ Sum);
+    </script>
+</body>
+</html>
